@@ -93,7 +93,7 @@ body {
 #section-1 {
   margin-top: 100px;
   display: flex;
-  width: 85%;
+  width: 75%;
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
@@ -107,9 +107,9 @@ body {
 }
 
 #header h1 {
-  font-size: 60px;
-  line-height: 55px;
-  margin-bottom: 25px;
+  font-size: 90px;
+  line-height: 70px;
+  margin-bottom: 35px;
 }
 
 #music-text {
@@ -117,15 +117,19 @@ body {
   font-weight: 900;
 }
 
+#lorem-text {
+  font-weight: 200;
+}
+
 #header  {
   text-decoration: none;
 }
 
 #shop-now {
-  border: 1px solid rgb(255, 234, 0);
+  border: 1px solid #FC961F;
   display: inline-block;
   padding: 16px 50px 16px 50px;
-  background-color: rgb(255, 234, 0);
+  background-color: #FC961F;
   margin-top: 20px;
   border-radius: 14px;
   font-weight: 900;
@@ -147,26 +151,6 @@ body {
 #review a {
   text-decoration: none;
   color: #000;
-}
-
-#header-image {
-  background-color: rgb(167, 5, 167);
-  width: 300px;
-  height: 300px;
-  position: relative;
-  padding: 0;
-  border-radius: 40px;
-  margin-right: 200px;
-  max-width: 45%;
-  transform: rotate(30deg);
-}
-
-#header-img {
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  transform: translateX(-160px);
 }
 
 /* section 2 */
