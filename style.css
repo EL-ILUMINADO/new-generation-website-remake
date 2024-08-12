@@ -22,12 +22,13 @@ body {
 .first-navbar-lang {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #first-navbar-h1 {
   display: inline-block;
   margin-right: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #first-navbar-h2 {
@@ -44,8 +45,8 @@ body {
 }
 
 #img-1 {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
 }
 
