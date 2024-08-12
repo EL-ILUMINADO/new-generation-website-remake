@@ -209,7 +209,7 @@ div .fa-solid, .fa-star {
 #sect-3 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #sect-3 ul {
@@ -234,7 +234,7 @@ div .fa-solid, .fa-star {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 1px;
 }
 
 .card {
