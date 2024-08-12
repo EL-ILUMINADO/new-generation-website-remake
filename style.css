@@ -8,112 +8,81 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'poppins', sans-serif;
-  padding-bottom: 200px;
 }
+
+/* first navbar */
 
 .first-navbar {
   display: flex;
-  width: 95%;
-  justify-content: space-between;
-  box-shadow: 0 0 1px #9c9c9c;
-  text-align: center;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 0;
-  border: 0;
-  border-radius: 12px;
-}
-
-#img-1 {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
+  box-shadow: -7px -28px 9px 27px #e6e6e6;
 }
 
 .first-navbar-lang {
-  cursor: pointer;
-}
-
-.first-navbar-logo {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 
-#flag {
-  font-size: 50px;
-  color: red;
-  margin-right: 0;
+#first-navbar-h1 {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 14px;
 }
 
-#flag-2 {
-  font-size: 50px;
-  color: rgb(34, 21, 174);
-  margin-left: 0;
+#first-navbar-h2 {
+  display: inline-block;
+  font-size: 12px;
+  color: #908c8c;
 }
 
 #first-navbar-image {
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   cursor: pointer;
 }
 
-#first-navbar-h2 {
-  color: #9c9c9c;
-  opacity: 0.4;
+#img-1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#navbar-logo {
+  width: 80px;
+  margin: 0;
 }
 
 /* second navbar */
 
-.second-navbar ul {
+.second-navbar {
   display: flex;
-  width: 95%;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 0;
-  border: 0;
-}
-
-#second-navbar-div ul {
-  display: flex;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
-#second-navbar-div ul li {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 70px;
-  list-style: none;
-  font-weight: 700;
+.second-navbar li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-#second-navbar-div ul li a {
+.second-navbar li a {
   text-decoration: none;
-  color: #000;
+  color: rgb(109, 104, 104);
+  font-size: 14px;
 }
 
-#second-navbar-div ul li a:hover {
+.li-list-link a:hover {
   text-decoration: underline;
+  color: #000;
+  font-weight: 500;
+}
+
+#li-one a {
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
 }
 
 /* first section */
