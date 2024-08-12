@@ -17,6 +17,8 @@ body {
   justify-content: space-around;
   align-items: center;
   box-shadow: -7px -28px 9px 27px #e6e6e6;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .first-navbar-lang {
